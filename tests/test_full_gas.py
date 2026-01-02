@@ -10,3 +10,4 @@ class TestFullGas(ChallengeResultTestCase):
 
     def test_df_has_the_right_values(self):
         self.assertEqual(self.result.us_total, 489473)
+        
